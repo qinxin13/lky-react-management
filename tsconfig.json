@@ -106,6 +106,8 @@
     },
     "allowJs": true,
     "jsx": "preserve", //解决无法使用 JSX,除非提供了 “--jsx“ 标志问题
-    "outDir": "./dist"
+    "outDir": "./dist",
+    // "suppressImplicitAnyIndexErrors": true
+    
   }
 }
